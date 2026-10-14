@@ -5,7 +5,7 @@ int main(){
     int mat[n][2];
     int vector[n];
     do{
-        cin >> n;
+     cin >> n;
     }while (n<2);
     for (int i=0; i<n; i++){
         for (int j=0; j<2; j++){
@@ -14,7 +14,7 @@ int main(){
     }
     for (int i=0; i<n; i++){
         for (int j=0; j<2; j++){
-          vector[i] = mat[i][j] + mat[i][j];
+          vector[i] = mat[i][j] % mat[i][j];
         }
     }
     for (int i=0; i<n; i++){
