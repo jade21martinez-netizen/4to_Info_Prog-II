@@ -32,6 +32,7 @@ int main(){
             }else{
                 if (vector[0]>0 && vector[1]<0){
                     cout << "pertenece al cuadrante 4 ";
+                    cout<<" no existe este cuadrante"
                 }
             }
         }
